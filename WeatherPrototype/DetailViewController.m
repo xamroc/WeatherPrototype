@@ -22,7 +22,7 @@
     self.contentScrollView = [[UIScrollView alloc] initWithFrame:self.view.frame];
     
     [self.view setBackgroundColor:[UIColor clearColor]];
-    self.contentScrollView.contentSize = CGSizeMake(self.contentScrollView.frame.size.width, self.contentScrollView.frame.size.height * 3);
+    self.contentScrollView.contentSize = CGSizeMake(self.view.frame.size.width, self.view.frame.size.height * 3);
     self.contentScrollView.bounces = NO;
     [self.view addSubview:self.contentScrollView];
     [self addContentSections];
@@ -43,7 +43,6 @@
 
 - (void)addContentSections {
     BoxViewController *boxView = [[BoxViewController alloc] init];
-//    NSString *imageName = record[@"backgroundImage"];
     
     for (NSDictionary *record in _dataDictionary) {
         NSString *sectionTitle = record[@"sectionTitle"];
@@ -54,20 +53,7 @@
     
         [self.contentScrollView addSubview:boxView.view];
     }
-    
-    
-//    for (uint i = 0; i < [self.dataDictionary count]; i++) {
-//        UILabel *titleLabel = [[UILabel alloc]initWithFrame:CGRectMake(0.0f, self.contentScrollView.frame.origin.y / 8 * i, 300, 400)];
-//        titleLabel.backgroundColor = [[UIColor blueColor] colorWithAlphaComponent:0.2f];
-//        titleLabel.text = [self.dataDictionary[i] objectForKey:(@"title")];
-//        titleLabel.textColor = [UIColor whiteColor];
-//        [self.contentScrollView addSubview:titleLabel];
-//    }
 }
-//
-//-(void)scrollViewWillBeginDecelerating:(UIScrollView *)scrollView{
-//    [scrollView setContentOffset:scrollView.contentOffset animated:YES];
-//}
 
 /*
 #pragma mark - Navigation
@@ -82,7 +68,6 @@
 #pragma mark UIScrollViewDelegate
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
-    NSLog(@"%s", @"helllo scroll");
     NSLog(@"Offset = %.2f", self.contentScrollView.contentOffset.y);
 }
 

@@ -17,13 +17,17 @@
 @implementation HomeViewController
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
     self.detailViewControllers = [[NSMutableArray alloc] init];
     NSArray *library = [[WeatherLibrary alloc] init].library;
     
+    NSLog(@"Frame Sizew = %f", self.view.frame.size.width);
+    NSLog(@"Frame Sizeh = %f", self.view.frame.size.height);
+    NSLog(@"Paged Frame Sizew = %f", self.pagedScrollView.frame.size.width);
+    NSLog(@"Paged Frame Sizeh = %f", self.pagedScrollView.frame.size.height);
+    
     self.pagedScrollView.pagingEnabled = YES;
     self.pagedScrollView.bounces = NO;
-    self.pagedScrollView.contentSize = CGSizeMake(self.pagedScrollView.frame.size.width * [library count], self.pagedScrollView.frame.size.height);
+    self.pagedScrollView.contentSize = CGSizeMake(self.view.frame.size.width * [library count], self.view.frame.size.height);
     [self buildBackground:library];
     
     self.pagedScrollView.delegate = self;
@@ -31,7 +35,7 @@
     for (uint i = 0; i < [library count]; i++) {
         DetailViewController *detailViewController = [[DetailViewController alloc] init];
         [detailViewController setDataDictionary: library];
-        detailViewController.view.frame = CGRectMake(self.pagedScrollView.frame.size.width * i, 0.0, detailViewController.view.frame.size.width, detailViewController.view.frame.size.height);
+        detailViewController.view.frame = CGRectMake(self.view.frame.size.width * i, 0.0, detailViewController.view.frame.size.width, detailViewController.view.frame.size.height);
         [self.detailViewControllers addObject:detailViewController];
         [self.pagedScrollView addSubview:detailViewController.view];
     }
@@ -58,7 +62,7 @@
     
     for(uint i = 0; i < [backgroundImageNames count]; i++) {
         UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:backgroundImageNames[i]]];
-        imageView.frame = CGRectMake(self.pagedScrollView.frame.size.width * i, 0.0, self.pagedScrollView.frame.size.width, self.pagedScrollView.frame.size.height);
+        imageView.frame = CGRectMake(self.view.frame.size.width * i, 0.0, self.view.frame.size.width, self.view.frame.size.height);
         [self.pagedScrollView addSubview:imageView];
     }
     

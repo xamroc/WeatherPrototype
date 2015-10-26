@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14B356F216EC8EE860205FA6A86B7698 /* ECSlidingInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAE5F27AB4D06859371871E755D5A51 /* ECSlidingInteractiveTransition.m */; };
+		17396A68C82FA2C42C5B0FA917BDD6C3 /* Pods-WeatherPrototype-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F708649336600F6D95D739D72D7BC5 /* Pods-WeatherPrototype-dummy.m */; };
+		178C33FC11EE395EE488007B8324D230 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		1F95DC54B5F2A87C425604A1E96B588B /* ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5F5FDC32E384A45FCEA7C4BA61D8AF /* ECSlidingViewController.m */; };
+		288C420CFD86E5DB1003DDEF9EB6CD49 /* ECSlidingSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = FB1621459E66BD7FDB86EC392433E00C /* ECSlidingSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		373C3A46D6E4716C18029B298DF8910F /* ECPercentDrivenInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = EE35BB11AF831D0421248F5168B2664B /* ECPercentDrivenInteractiveTransition.m */; };
+		3B174EC96794B8A6485F40209DFD843E /* ECPercentDrivenInteractiveTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E17BAC85DCACCDB1EAE4CB2064B426D /* ECPercentDrivenInteractiveTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		684E15342B02409A90D0D5B154FD873F /* ECSlidingConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 16FD4A6846BABD74EA0F75A4C455F1E8 /* ECSlidingConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AC2C8191CADFF16FE5977D2EF7BEB57 /* ECSlidingViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3848EEF42A61668C906FFC5655775C96 /* ECSlidingViewController-dummy.m */; };
+		7049C656FB8857B4DCCB53C6EA59B79F /* UIViewController+ECSlidingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F1BA7FD4FC88E359BA44ED55E1A3B024 /* UIViewController+ECSlidingViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		864E25A06111B7B3C6A820DDC9979A19 /* UIViewController+ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FBA0DC30B012F0B0033659F1A10664 /* UIViewController+ECSlidingViewController.m */; };
+		A5815EE47DC2FD9F9F9C0B6785E53784 /* ECSlidingAnimationController.h in Headers */ = {isa = PBXBuildFile; fileRef = AB058BDF202C3A633C2F14575D851F34 /* ECSlidingAnimationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB216332EDBFACAA5D8E43261716A17F /* ECSlidingInteractiveTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = A5C78D5AD90BF0EEAF1E44D885F8893A /* ECSlidingInteractiveTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABD056B70E0B13D61064B6299AB240E1 /* ECSlidingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AFE74C3D0DEA74EA7FBCC75D93BFF423 /* ECSlidingViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD887D84913E355336B04137A24227BA /* ECSlidingAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E054E63A69D25C77A0696DB09B0C0E /* ECSlidingAnimationController.m */; };
+		C7FE08164E907458BE91AD6C655212E6 /* ECSlidingSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = FA184B44E28EDAA0C33FEEA422C91A36 /* ECSlidingSegue.m */; };
+		F4163E418D43CFCCDFEA0AD2C6B33655 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5373266132797F02253F7CFD71411E6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEB30DAF5F254D434B0B5626D182F0BF;
+			remoteInfo = ECSlidingViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		034AB5F09B98C98819B9B87BEB9822FD /* ECSlidingViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ECSlidingViewController-prefix.pch"; sourceTree = "<group>"; };
+		16FD4A6846BABD74EA0F75A4C455F1E8 /* ECSlidingConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ECSlidingConstants.h; path = ECSlidingViewController/ECSlidingConstants.h; sourceTree = "<group>"; };
+		17994E3B05946B441A58170CDCBFECD5 /* Pods-WeatherPrototype.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeatherPrototype.release.xcconfig"; sourceTree = "<group>"; };
+		34913C42E72AA91583DD373A0F9F9E5F /* libPods-WeatherPrototype.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeatherPrototype.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3848EEF42A61668C906FFC5655775C96 /* ECSlidingViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ECSlidingViewController-dummy.m"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4AFBD2563CEF36AD0F3922559234EA73 /* ECSlidingViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ECSlidingViewController.xcconfig; sourceTree = "<group>"; };
+		6A5F5FDC32E384A45FCEA7C4BA61D8AF /* ECSlidingViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ECSlidingViewController.m; path = ECSlidingViewController/ECSlidingViewController.m; sourceTree = "<group>"; };
+		6F79BE8DED9B6BD84DBF13C9D8E8533D /* Pods-WeatherPrototype-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeatherPrototype-frameworks.sh"; sourceTree = "<group>"; };
+		74FBA0DC30B012F0B0033659F1A10664 /* UIViewController+ECSlidingViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+ECSlidingViewController.m"; path = "ECSlidingViewController/UIViewController+ECSlidingViewController.m"; sourceTree = "<group>"; };
+		7577BC32175943DC2C0EAC39AAADEC96 /* Pods-WeatherPrototype-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeatherPrototype-acknowledgements.plist"; sourceTree = "<group>"; };
+		8E17BAC85DCACCDB1EAE4CB2064B426D /* ECPercentDrivenInteractiveTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ECPercentDrivenInteractiveTransition.h; path = ECSlidingViewController/ECPercentDrivenInteractiveTransition.h; sourceTree = "<group>"; };
+		9B098B846C9D1EC3815B5BCC99378D23 /* Pods-WeatherPrototype.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeatherPrototype.debug.xcconfig"; sourceTree = "<group>"; };
+		A16175982C14A7BE3D8063B7C0C6EC25 /* Pods-WeatherPrototype-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WeatherPrototype-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A5C78D5AD90BF0EEAF1E44D885F8893A /* ECSlidingInteractiveTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ECSlidingInteractiveTransition.h; path = ECSlidingViewController/ECSlidingInteractiveTransition.h; sourceTree = "<group>"; };
+		AB058BDF202C3A633C2F14575D851F34 /* ECSlidingAnimationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ECSlidingAnimationController.h; path = ECSlidingViewController/ECSlidingAnimationController.h; sourceTree = "<group>"; };
+		AFE74C3D0DEA74EA7FBCC75D93BFF423 /* ECSlidingViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ECSlidingViewController.h; path = ECSlidingViewController/ECSlidingViewController.h; sourceTree = "<group>"; };
+		B2ED5F7DE067C5BE785FF5CDB709EECA /* libECSlidingViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libECSlidingViewController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4E054E63A69D25C77A0696DB09B0C0E /* ECSlidingAnimationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ECSlidingAnimationController.m; path = ECSlidingViewController/ECSlidingAnimationController.m; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C398A52BB69D395A3C0124AC7661D0DF /* Pods-WeatherPrototype-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeatherPrototype-resources.sh"; sourceTree = "<group>"; };
+		D6F708649336600F6D95D739D72D7BC5 /* Pods-WeatherPrototype-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WeatherPrototype-dummy.m"; sourceTree = "<group>"; };
+		ECAE5F27AB4D06859371871E755D5A51 /* ECSlidingInteractiveTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ECSlidingInteractiveTransition.m; path = ECSlidingViewController/ECSlidingInteractiveTransition.m; sourceTree = "<group>"; };
+		EE35BB11AF831D0421248F5168B2664B /* ECPercentDrivenInteractiveTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ECPercentDrivenInteractiveTransition.m; path = ECSlidingViewController/ECPercentDrivenInteractiveTransition.m; sourceTree = "<group>"; };
+		F1BA7FD4FC88E359BA44ED55E1A3B024 /* UIViewController+ECSlidingViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+ECSlidingViewController.h"; path = "ECSlidingViewController/UIViewController+ECSlidingViewController.h"; sourceTree = "<group>"; };
+		FA184B44E28EDAA0C33FEEA422C91A36 /* ECSlidingSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ECSlidingSegue.m; path = ECSlidingViewController/ECSlidingSegue.m; sourceTree = "<group>"; };
+		FB1621459E66BD7FDB86EC392433E00C /* ECSlidingSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ECSlidingSegue.h; path = ECSlidingViewController/ECSlidingSegue.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		301C1FD02C2566DF626FC1F4F78F2346 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178C33FC11EE395EE488007B8324D230 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E11E932F4E48113B15617E56C1F55185 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4163E418D43CFCCDFEA0AD2C6B33655 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		341E91EBFEB5BA76A9667E4B00A25EDE /* ECSlidingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8E17BAC85DCACCDB1EAE4CB2064B426D /* ECPercentDrivenInteractiveTransition.h */,
+				EE35BB11AF831D0421248F5168B2664B /* ECPercentDrivenInteractiveTransition.m */,
+				AB058BDF202C3A633C2F14575D851F34 /* ECSlidingAnimationController.h */,
+				B4E054E63A69D25C77A0696DB09B0C0E /* ECSlidingAnimationController.m */,
+				16FD4A6846BABD74EA0F75A4C455F1E8 /* ECSlidingConstants.h */,
+				A5C78D5AD90BF0EEAF1E44D885F8893A /* ECSlidingInteractiveTransition.h */,
+				ECAE5F27AB4D06859371871E755D5A51 /* ECSlidingInteractiveTransition.m */,
+				FB1621459E66BD7FDB86EC392433E00C /* ECSlidingSegue.h */,
+				FA184B44E28EDAA0C33FEEA422C91A36 /* ECSlidingSegue.m */,
+				AFE74C3D0DEA74EA7FBCC75D93BFF423 /* ECSlidingViewController.h */,
+				6A5F5FDC32E384A45FCEA7C4BA61D8AF /* ECSlidingViewController.m */,
+				F1BA7FD4FC88E359BA44ED55E1A3B024 /* UIViewController+ECSlidingViewController.h */,
+				74FBA0DC30B012F0B0033659F1A10664 /* UIViewController+ECSlidingViewController.m */,
+				99C4ED2B177FF4262D54D91DD9AE0DE6 /* Support Files */,
+			);
+			path = ECSlidingViewController;
+			sourceTree = "<group>";
+		};
+		6104BED2749937C073874D4EA3DA1997 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				341E91EBFEB5BA76A9667E4B00A25EDE /* ECSlidingViewController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6104BED2749937C073874D4EA3DA1997 /* Pods */,
+				DAA19B004310C42811822A43A0D13A07 /* Products */,
+				A503DEABEC482721078DA113876F51B0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		99C4ED2B177FF4262D54D91DD9AE0DE6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AFBD2563CEF36AD0F3922559234EA73 /* ECSlidingViewController.xcconfig */,
+				3848EEF42A61668C906FFC5655775C96 /* ECSlidingViewController-dummy.m */,
+				034AB5F09B98C98819B9B87BEB9822FD /* ECSlidingViewController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ECSlidingViewController";
+			sourceTree = "<group>";
+		};
+		A503DEABEC482721078DA113876F51B0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA0A74D19E69FFD31A23D13A7F18D133 /* Pods-WeatherPrototype */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AA0A74D19E69FFD31A23D13A7F18D133 /* Pods-WeatherPrototype */ = {
+			isa = PBXGroup;
+			children = (
+				A16175982C14A7BE3D8063B7C0C6EC25 /* Pods-WeatherPrototype-acknowledgements.markdown */,
+				7577BC32175943DC2C0EAC39AAADEC96 /* Pods-WeatherPrototype-acknowledgements.plist */,
+				D6F708649336600F6D95D739D72D7BC5 /* Pods-WeatherPrototype-dummy.m */,
+				6F79BE8DED9B6BD84DBF13C9D8E8533D /* Pods-WeatherPrototype-frameworks.sh */,
+				C398A52BB69D395A3C0124AC7661D0DF /* Pods-WeatherPrototype-resources.sh */,
+				9B098B846C9D1EC3815B5BCC99378D23 /* Pods-WeatherPrototype.debug.xcconfig */,
+				17994E3B05946B441A58170CDCBFECD5 /* Pods-WeatherPrototype.release.xcconfig */,
+			);
+			name = "Pods-WeatherPrototype";
+			path = "Target Support Files/Pods-WeatherPrototype";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DAA19B004310C42811822A43A0D13A07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2ED5F7DE067C5BE785FF5CDB709EECA /* libECSlidingViewController.a */,
+				34913C42E72AA91583DD373A0F9F9E5F /* libPods-WeatherPrototype.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DC92DB1A36DD7549A9F3E30BDAF32718 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B174EC96794B8A6485F40209DFD843E /* ECPercentDrivenInteractiveTransition.h in Headers */,
+				A5815EE47DC2FD9F9F9C0B6785E53784 /* ECSlidingAnimationController.h in Headers */,
+				684E15342B02409A90D0D5B154FD873F /* ECSlidingConstants.h in Headers */,
+				AB216332EDBFACAA5D8E43261716A17F /* ECSlidingInteractiveTransition.h in Headers */,
+				288C420CFD86E5DB1003DDEF9EB6CD49 /* ECSlidingSegue.h in Headers */,
+				ABD056B70E0B13D61064B6299AB240E1 /* ECSlidingViewController.h in Headers */,
+				7049C656FB8857B4DCCB53C6EA59B79F /* UIViewController+ECSlidingViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		56D727927BF15282D10D179D417FA14E /* Pods-WeatherPrototype */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F5C7DFAF3235CFCABF5BAAC7BF16BF9 /* Build configuration list for PBXNativeTarget "Pods-WeatherPrototype" */;
+			buildPhases = (
+				373A6C7289EFD3D4E4FCD9BC4ECE622D /* Sources */,
+				301C1FD02C2566DF626FC1F4F78F2346 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85795A4451CA20259E38887A8F541187 /* PBXTargetDependency */,
+			);
+			name = "Pods-WeatherPrototype";
+			productName = "Pods-WeatherPrototype";
+			productReference = 34913C42E72AA91583DD373A0F9F9E5F /* libPods-WeatherPrototype.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FEB30DAF5F254D434B0B5626D182F0BF /* ECSlidingViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CC9A2AF6E3051A155D04844368DC4F3 /* Build configuration list for PBXNativeTarget "ECSlidingViewController" */;
+			buildPhases = (
+				B408810589206BAD9A2303ABEF8C9741 /* Sources */,
+				E11E932F4E48113B15617E56C1F55185 /* Frameworks */,
+				DC92DB1A36DD7549A9F3E30BDAF32718 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ECSlidingViewController;
+			productName = ECSlidingViewController;
+			productReference = B2ED5F7DE067C5BE785FF5CDB709EECA /* libECSlidingViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DAA19B004310C42811822A43A0D13A07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEB30DAF5F254D434B0B5626D182F0BF /* ECSlidingViewController */,
+				56D727927BF15282D10D179D417FA14E /* Pods-WeatherPrototype */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		373A6C7289EFD3D4E4FCD9BC4ECE622D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17396A68C82FA2C42C5B0FA917BDD6C3 /* Pods-WeatherPrototype-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B408810589206BAD9A2303ABEF8C9741 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373C3A46D6E4716C18029B298DF8910F /* ECPercentDrivenInteractiveTransition.m in Sources */,
+				AD887D84913E355336B04137A24227BA /* ECSlidingAnimationController.m in Sources */,
+				14B356F216EC8EE860205FA6A86B7698 /* ECSlidingInteractiveTransition.m in Sources */,
+				C7FE08164E907458BE91AD6C655212E6 /* ECSlidingSegue.m in Sources */,
+				6AC2C8191CADFF16FE5977D2EF7BEB57 /* ECSlidingViewController-dummy.m in Sources */,
+				1F95DC54B5F2A87C425604A1E96B588B /* ECSlidingViewController.m in Sources */,
+				864E25A06111B7B3C6A820DDC9979A19 /* UIViewController+ECSlidingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85795A4451CA20259E38887A8F541187 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ECSlidingViewController;
+			target = FEB30DAF5F254D434B0B5626D182F0BF /* ECSlidingViewController */;
+			targetProxy = 5373266132797F02253F7CFD71411E6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		052A17875CB827423D627183396CEB60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		143659FE49937CA75DB22E3AA4AEBF1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B098B846C9D1EC3815B5BCC99378D23 /* Pods-WeatherPrototype.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3DA58104D91D0CB0DE784E6989D215EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17994E3B05946B441A58170CDCBFECD5 /* Pods-WeatherPrototype.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		84EBE0E7D999A421626729B4739CA92B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AFBD2563CEF36AD0F3922559234EA73 /* ECSlidingViewController.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ECSlidingViewController/ECSlidingViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E302AACFE271A7D22ACEE7D0CEAE7F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AFBD2563CEF36AD0F3922559234EA73 /* ECSlidingViewController.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ECSlidingViewController/ECSlidingViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CC9A2AF6E3051A155D04844368DC4F3 /* Build configuration list for PBXNativeTarget "ECSlidingViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E302AACFE271A7D22ACEE7D0CEAE7F5E /* Debug */,
+				84EBE0E7D999A421626729B4739CA92B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */,
+				052A17875CB827423D627183396CEB60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F5C7DFAF3235CFCABF5BAAC7BF16BF9 /* Build configuration list for PBXNativeTarget "Pods-WeatherPrototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				143659FE49937CA75DB22E3AA4AEBF1A /* Debug */,
+				3DA58104D91D0CB0DE784E6989D215EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
