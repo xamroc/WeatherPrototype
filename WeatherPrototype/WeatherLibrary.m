@@ -11,8 +11,9 @@
 NSString *const kTitle = @"title";
 NSString *const kDescription = @"desc";
 NSString *const kBackgroundImage = @"backgroundImage";
-NSString *const kSectionTitle = @"sectionTitle";
-NSString *const kSectionDescription = @"sectionDesc";
+NSArray *const kBoxes = @"boxes";
+NSString *const kBoxTitle = @"boxTitle";
+NSString *const kBoxDesc = @"boxDesc";
 
 @implementation WeatherLibrary
 - (instancetype)init {
@@ -22,32 +23,72 @@ NSString *const kSectionDescription = @"sectionDesc";
         self.library = @[@{kTitle: @"Title1",
                            kDescription: @"Title 1 Description",
                            kBackgroundImage: @"photo1.png",
-                           kSectionTitle: @"section1",
-                           kSectionDescription: @"sectionDesc1"
+                           kBoxes: @[@{kBoxTitle: @"BoxTitle1",
+                                       kBoxDesc: @"BoxDesc1"
+                                       },
+                                     @{kBoxTitle: @"BoxTitle2",
+                                       kBoxDesc: @"BoxDesc2"
+                                       },
+                                     @{kBoxTitle: @"BoxTitle3",
+                                       kBoxDesc: @"BoxDesc3"
+                                       }
+                                     ]
                            },
                          @{kTitle: @"Title2",
                            kDescription: @"Title 2 Description",
                            kBackgroundImage: @"photo2.png",
-                           kSectionTitle: @"section2",
-                           kSectionDescription: @"sectionDesc2"
+                           kBoxes: @[@{kBoxTitle: @"BoxTitle1",
+                                       kBoxDesc: @"BoxDesc1"
+                                       },
+                                     @{kBoxTitle: @"BoxTitle2",
+                                       kBoxDesc: @"BoxDesc2"
+                                       },
+                                     @{kBoxTitle: @"BoxTitle3",
+                                       kBoxDesc: @"BoxDesc3"
+                                       }
+                                     ]
                            },
                          @{kTitle: @"Title3",
                            kDescription: @"Title 3 Description",
                            kBackgroundImage: @"photo3.png",
-                           kSectionTitle: @"section3",
-                           kSectionDescription: @"sectionDesc3"
+                           kBoxes: @[@{kBoxTitle: @"BoxTitle1",
+                                       kBoxDesc: @"BoxDesc1"
+                                       },
+                                     @{kBoxTitle: @"BoxTitle2",
+                                       kBoxDesc: @"BoxDesc2"
+                                       },
+                                     @{kBoxTitle: @"BoxTitle3",
+                                       kBoxDesc: @"BoxDesc3"
+                                       }
+                                     ]
                            },
                          @{kTitle: @"Title4",
                            kDescription: @"Title 4 Description",
                            kBackgroundImage: @"photo4.png",
-                           kSectionTitle: @"section4",
-                           kSectionDescription: @"sectionDesc4"
+                           kBoxes: @[@{kBoxTitle: @"BoxTitle1",
+                                       kBoxDesc: @"BoxDesc1"
+                                       },
+                                     @{kBoxTitle: @"BoxTitle2",
+                                       kBoxDesc: @"BoxDesc2"
+                                       },
+                                     @{kBoxTitle: @"BoxTitle3",
+                                       kBoxDesc: @"BoxDesc3"
+                                       }
+                                     ]
                            },
                          @{kTitle: @"Title5",
                            kDescription: @"Title 5 Description",
                            kBackgroundImage: @"photo5.png",
-                           kSectionTitle: @"section5",
-                           kSectionDescription: @"sectionDesc5"
+                           kBoxes: @[@{kBoxTitle: @"BoxTitle1",
+                                       kBoxDesc: @"BoxDesc1"
+                                       },
+                                     @{kBoxTitle: @"BoxTitle2",
+                                       kBoxDesc: @"BoxDesc2"
+                                       },
+                                     @{kBoxTitle: @"BoxTitle3",
+                                       kBoxDesc: @"BoxDesc3"
+                                       }
+                                     ]
                            }
                         ];
                                     

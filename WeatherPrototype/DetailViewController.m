@@ -25,7 +25,7 @@
     self.contentScrollView.contentSize = CGSizeMake(self.view.frame.size.width, self.view.frame.size.height * 3);
     self.contentScrollView.bounces = NO;
     [self.view addSubview:self.contentScrollView];
-    [self addContentSections];
+//    [self addContentSections];
     
     self.contentScrollView.delegate = self;
     
@@ -45,8 +45,6 @@
     BoxViewController *boxView = [[BoxViewController alloc] init];
     
     for (NSDictionary *record in _dataDictionary) {
-        NSString *sectionTitle = record[@"sectionTitle"];
-        NSString *sectionDesc = record[@"sectionDesc"];
     
         [boxView setBoxTitle: @"title"];
         [boxView setBoxDesc: @"description"];
