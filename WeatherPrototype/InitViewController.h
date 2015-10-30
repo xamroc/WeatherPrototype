@@ -8,5 +8,5 @@
 
 #import <ECSlidingViewController/ECSlidingViewController.h>
 
-@interface InitViewController : ECSlidingViewController
+@interface InitViewController : ECSlidingViewController <UIGestureRecognizerDelegate>
 @end

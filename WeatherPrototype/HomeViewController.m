@@ -6,6 +6,7 @@
 //  Copyright © 2015 Marco Lau. All rights reserved.
 //
 
+#import "AppDelegate.h"
 #import "HomeViewController.h"
 #import "DetailViewController.h"
 #import "WeatherLibrary.h"
@@ -30,8 +31,6 @@
     self.pagedScrollView.contentSize = CGSizeMake(self.view.frame.size.width * [library count], self.view.frame.size.height);
     [self buildBackground:library];
     
-    self.pagedScrollView.delegate = self;
-    
     for (uint i = 0; i < [library count]; i++) {
         DetailViewController *detailViewController = [[DetailViewController alloc] init];
         [detailViewController setDataDictionary: library];
@@ -40,6 +39,13 @@
         [self.pagedScrollView addSubview:detailViewController.view];
     }
     
+    self.revealMenuView.backgroundColor = [UIColor redColor];
+    [[self view] bringSubviewToFront:self.revealMenuView];
+    
+    UILongPressGestureRecognizer *longPressRecognizer = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(revealMenu:)];
+    AppDelegate *app = [[UIApplication sharedApplication] delegate];
+    longPressRecognizer.delegate = app.ivc;
+    [self.view addGestureRecognizer:longPressRecognizer];
     
 }
 
@@ -65,8 +71,15 @@
         imageView.frame = CGRectMake(self.view.frame.size.width * i, 0.0, self.view.frame.size.width, self.view.frame.size.height);
         [self.pagedScrollView addSubview:imageView];
     }
-    
+}
 
+- (void)revealMenu:(UILongPressGestureRecognizer *)longPressRecognizer {
+    CGPoint p = [longPressRecognizer locationInView:self.view];
+    NSLog(@"%f", p.x);
+    
+    if (p.x <= 10) {
+        NSLog(@"%s", "I want to pop out!");
+    }
 }
 
 /*

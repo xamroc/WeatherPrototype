@@ -10,4 +10,5 @@
 
 @interface HomeViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UIScrollView *pagedScrollView;
+@property (weak, nonatomic) IBOutlet UIView *revealMenuView;
 @end

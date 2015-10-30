@@ -7,6 +7,7 @@
 //
 
 #import "InitViewController.h"
+//#import "AppDelegate.h"
 
 @interface InitViewController ()
 
@@ -15,8 +16,10 @@
 @implementation InitViewController
 
 - (void)viewDidLoad {
-    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Home"];
-    self.underLeftViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Menu"];
+//    AppDelegate *app = [[UIApplication sharedApplication] delegate];
+//    app.ivc = self;
+//    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Home"];
+//    self.underLeftViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Menu"];
     [super viewDidLoad];
 }
 

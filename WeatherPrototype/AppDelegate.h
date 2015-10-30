@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "InitViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property (nonatomic) InitViewController *ivc;
+@property (nonatomic, strong) ECSlidingViewController *slidingViewController;
 
 @end
 

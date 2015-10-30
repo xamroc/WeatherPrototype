@@ -6,6 +6,7 @@
 //  Copyright © 2015 Marco Lau. All rights reserved.
 //
 
+#import "AppDelegate.h"
 #import "MenuViewController.h"
 #import "HomeViewController.h"
 #import "UIViewController+ECSlidingViewController.h"
@@ -31,9 +32,8 @@
     
     self.menu = [NSArray arrayWithObjects:@"Home", @"View", nil];
     
-    [self.slidingViewController setAnchorRightRevealAmount:self.view.frame.size.width];
+    [self.slidingViewController setAnchorRightPeekAmount:44.0f];
     [self.slidingViewController anchorTopViewToRightAnimated:YES];
-    
     
     
 }
@@ -54,11 +54,30 @@
     
     // Add the pan gesture to allow sliding
     [self.view addGestureRecognizer:self.slidingViewController.panGesture];
+    
+//    UILongPressGestureRecognizer *longPressRecognizer = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(revealMenu:)];
+//    AppDelegate *app = [[UIApplication sharedApplication] delegate];
+//    longPressRecognizer.delegate = app.ivc;
+//    [self.view addGestureRecognizer:longPressRecognizer];
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+//- (void)revealMenu:(UILongPressGestureRecognizer *)longPressRecognizer {
+//    CGPoint p = [longPressRecognizer locationInView:self.view];
+//    NSLog(@"%f", p.x);
+//    
+//    if (p.x <= 10) {
+//        NSLog(@"%s", "I want to pop out!");
+//    }
+//}
+
+- (void)printSomething {
+    printf("Some menue");
 }
 
 #pragma mark - Table view data source

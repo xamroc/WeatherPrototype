@@ -16,6 +16,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jjc-3E-0o7">
+                                <rect key="frame" x="0.0" y="0.0" width="5" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="VUC-Kb-HPJ">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <subviews>
@@ -28,6 +32,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="VUC-Kb-HPJ" firstAttribute="leading" secondItem="2p1-rF-VG5" secondAttribute="leading" id="9AL-Ku-NOv"/>
+                            <constraint firstItem="jjc-3E-0o7" firstAttribute="top" secondItem="2p1-rF-VG5" secondAttribute="top" id="Jer-oy-Vg2"/>
+                            <constraint firstItem="jjc-3E-0o7" firstAttribute="leading" secondItem="2p1-rF-VG5" secondAttribute="leading" id="c82-8U-0NG"/>
+                            <constraint firstItem="Pi2-XG-IFk" firstAttribute="top" secondItem="jjc-3E-0o7" secondAttribute="bottom" id="kJY-iq-ucn"/>
                             <constraint firstAttribute="trailing" secondItem="VUC-Kb-HPJ" secondAttribute="trailing" id="mFI-YZ-zF2"/>
                             <constraint firstItem="Pi2-XG-IFk" firstAttribute="top" secondItem="VUC-Kb-HPJ" secondAttribute="bottom" id="oj3-V9-LW4"/>
                             <constraint firstItem="VUC-Kb-HPJ" firstAttribute="top" secondItem="2p1-rF-VG5" secondAttribute="top" id="x6i-e6-Znv"/>
@@ -36,6 +43,7 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <connections>
                         <outlet property="pagedScrollView" destination="8xx-gb-a2y" id="VVK-ir-sT4"/>
+                        <outlet property="revealMenuView" destination="jjc-3E-0o7" id="Fag-jC-Aaf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="geH-mV-DDy" userLabel="First Responder" sceneMemberID="firstResponder"/>

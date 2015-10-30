@@ -7,16 +7,29 @@
 //
 
 #import "AppDelegate.h"
+#import "ECSlidingViewController.h"
 
 @interface AppDelegate ()
-
 @end
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main"
+                                                             bundle: nil];
+    UIViewController *topViewController = [mainStoryboard instantiateViewControllerWithIdentifier:@"Home"];
+    UITableViewController *underLeftViewController = [mainStoryboard instantiateViewControllerWithIdentifier:@"Menu"];
+    
+    self.slidingViewController = [[ECSlidingViewController alloc] initWithTopViewController:topViewController];
+    self.slidingViewController.underLeftViewController = underLeftViewController;
+
+    [self.slidingViewController.view addGestureRecognizer:self.slidingViewController.panGesture];
+    
+    self.window.rootViewController = self.slidingViewController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
